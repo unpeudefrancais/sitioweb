@@ -1,0 +1,532 @@
+.ml-auto {
+  margin-left: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.color-white {
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #767676;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #767676;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Bodoni Moda";
+  font-style: italic;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-right: 20px
+}
+
+.section-heading {
+  font-family: "Bodoni Moda";
+  font-style: italic;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.important-heading {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+/* Footer Section */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+#footer .bigger-icon {
+  margin: 30px 20px;
+  display: none;
+}
+
+.colored-section a:hover {
+  color: #fff;
+}
+
+.copyright {
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #767FA6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+#navigation {
+  padding: 3% 10% 0%;
+}
+
+.navbar-nav {
+  position: relative;
+  bottom: 42px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.navbar-logo {
+  width: 120px;
+  position: relative;
+  bottom: 25px;
+}
+
+/********** INDEX **********/
+/* Title Section */
+#title .container-fluid {
+  padding: 0% 10% 100px;
+  text-align: left;
+}
+
+.title-image {
+  width: 400px;
+  vertical-align: baseline;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+/* Contacto Buttons */
+.contacto-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ff5757;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #222831;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ff5757;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#testimonials em {
+  font-size: 2rem;
+}
+
+/* Presentacion */
+.presentation-text {
+  font-size: 1.6rem;
+}
+
+.francophonie-img {
+  width: 400px;
+  position: relative;
+  top: 20px;
+}
+
+/********** ESCUELA **********/
+#escuela p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#escuela .color-white {
+  color: #fff;
+}
+
+#escuela .container-fluid {
+  padding: 3% 15% 0%;
+}
+
+.escuela-img {
+  width: 500px;
+  position: relative;
+  bottom: 110px;
+}
+
+.nacimiento-img, .nacimiento-img3 {
+  width: 200px;
+  margin: 0 30px 10px 0;
+  float: left;
+}
+
+.nacimiento-img2 {
+  width: 200px;
+  margin: 0 0 10px 30px;
+  float: right;
+}
+
+#nacimiento h3 {
+  color: #767fa6;
+  padding-bottom: 2%;
+}
+
+#encanta .row {
+  position: relative;
+  top: 90px;
+}
+
+#encanta p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#encanta .color-white {
+  color: #fff;
+}
+
+/********** EQUIPO **********/
+#equipo .container-fluid {
+  padding: 7% 10% 0px;
+}
+
+.equipo-img {
+  width: 700px;
+  position: relative;
+  bottom: 110px;
+}
+
+#profesores .container-fluid, #comunicacion .container-fluid {
+  padding: 4% 20% 1%;
+}
+
+.profile {
+  margin: 100px 0 150px;
+}
+
+.img-width {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.text-profile {
+  text-align: left;
+}
+
+.img-name {
+  vertical-align: baseline;
+  color: #767FA6;
+}
+
+.float-left {
+  float: left;
+  margin-right: 50px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 50px;
+}
+
+#comunicacion .img-name {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#comunicacion p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#comunicacion .color-white {
+  color: #fff;
+}
+
+/********** CURSOS **********/
+#cursos-y-precios .container-fluid {
+  padding: 0% 10% 0px;
+}
+
+#cursos-y-precios .col-lg-5 {
+  padding-top: 80px;
+}
+
+.cursos-img {
+  width: 500px;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+
+.contenido-description {
+  text-align: left;
+  margin: 7% 2% 15% 2%;
+}
+
+.contenido-img {
+  width: 100%;
+}
+
+.contenido-title {
+  color: #767fa6;
+}
+
+#cursos .section-subtitle {
+  margin-bottom: 8%;
+}
+
+#cursos .container-fluid, #pricing .container-fluid {
+  padding: 4% 10% 1%;
+}
+
+#pricing .card-header {
+  background-color: #ff5757;
+  color: #fff;
+}
+
+#pricing .btn-outline-dark:hover, #pricing .btn-dark {
+  background-color: #767fa6;
+}
+
+#pricing .btn-dark:hover {
+  background-color: #59638a;
+}
+
+.price-text {
+  font-size: 2.7rem;
+  line-height: 1.3;
+  color: #000;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-nb {
+  text-align: left;
+  line-height: 0.3rem;
+  padding-top: 30px
+}
+
+/* Media Query Points */
+@media (max-width:1400px) {
+  .title-image {
+    position: absolute;
+    top: 175px;
+  }
+
+  @media (max-width:1150px) {
+    .title-image {
+      position: absolute;
+      top: 200px;
+    }
+
+    .francophonie-img {
+      position: relative;
+      top: 50px;
+    }
+
+    .equipo-img {
+      width: 500px;
+      position: relative;
+      bottom: 70px;
+    }
+  }
+
+  @media (max-width:1121px) {
+    .navbar-nav {
+      position: relative;
+      bottom: 28px;
+    }
+
+    .escuela-img {
+      width: 450px;
+      position: relative;
+      bottom: 80px;
+    }
+  }
+
+  @media (max-width:991px) {
+    .big-heading {
+      font-size: 4.5rem;
+    }
+
+    .section-heading {
+      font-size: 4.2rem;
+      padding: 2rem 0;
+    }
+
+    .section-subtitle, #nacimiento h3, #profesores h3, #comunicacion h3, #cursos h3, #pricing h3 {
+      font-size: 2.7rem;
+      margin-bottom: 15px;
+    }
+
+    .important-heading, .feature-title, #encanta .section-subtitle, #cursos-y-precios .section-subtitle, #cursos .section-subtitle, #pricing .section-subtitle {
+      font-size: 3rem;
+    }
+
+    .presentation-text, #features p, #escuela p, #nacimiento p, #encanta p, #profesores p, #comunicacion p, #cursos p, #pricing p {
+      font-size: 2.5rem;
+    }
+
+    .copyright {
+      font-size: 1.7rem;
+    }
+
+    #footer .bigger-icon {
+      display: inline-block;
+    }
+
+    #footer .footer-icon {
+      display: none;
+    }
+
+    .navbar-logo {
+      width: 200px;
+      bottom: 10px;
+    }
+
+    .navbar-toggler-icon {
+      width: 3em;
+      height: 3em;
+    }
+
+    .nav-link {
+      font-size: 2rem;
+      line-height: 4rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    .btn-lg, .btn-group-lg>.btn {
+      padding: 1rem 1.5rem;
+      font-size: 2.7rem;
+      border-radius: 0.5rem;
+    }
+
+    .container-fluid, #features .container-fluid, #equipo .container-fluid {
+      text-align: center;
+      padding: 10% 3%;
+    }
+
+    #profesores .container-fluid, #comunicacion .container-fluid {
+      text-align: center;
+      padding: 10% 3% 3%;
+    }
+
+    #title .container-fluid, #escuela .container-fluid, #equipo .container-fluid, #cursos-y-precios .container-fluid {
+      text-align: center;
+      padding: 3% 3% 10% 3%;
+    }
+
+    #testimonials .container-fluid {
+      padding: 7% 10%;
+    }
+
+    .title-image, .escuela-img, .equipo-img, .cursos-img {
+      position: static;
+      width: 90%;
+    }
+
+    .francophonie-img {
+      position: static;
+      width: 80%;
+      margin-top: 40px;
+    }
+
+    .nacimiento-img, .nacimiento-img2, .nacimiento-img3 {
+      width: 40%;
+    }
+
+    .equipo-img, .cursos-img, .img-name {
+      padding-bottom: 40px;
+    }
+
+    .price-nb {
+      line-height: 2.7rem;
+    }
+
+    .float-left {
+      float: none;
+      margin-right: 0;
+    }
+
+    .float-right {
+      float: none;
+      margin-left: 0;
+    }
+
+    .text-profile {
+      text-align: center;
+    }
+
+    #nacimiento .row, #encanta .row {
+      position: relative;
+      margin-bottom: 10%;
+    }
+
+    #cursos-y-precios .col-lg-5 {
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width:605px) {
+    .img-width {
+      width: 90%;
+    }
+  }
